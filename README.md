@@ -44,7 +44,22 @@ Introduzca los siguientes apartados y una vez hecho confirme con Ctrl + D:
   <li>Capítulo 3: Gestión de ramas</li>
   <li>Capítulo 4: Repositorios remotos</li>
 </ul><br>
-
+Para mostrar los cambios con respecto a la última versión guardada en el repositorio introduzca:
+```
+git diff
+```
+Una vez verificado hacemos commit con el mensaje Añadido los capitulos 3 y 4:
+```
+git add indice.txt
+git commit -m "Añadido los capitulos 3 y 4"
+```
+## Consultar historial
+El comando <strong>git show</strong> muestra los últimos cambios en el repositorio. El comando <strong>git commit --amend</strong> es una manera práctica de modificar el commit más reciente. Te permite combinar los cambios preparados con el commit anterior en lugar de crear un commit nuevo. 
+```
+git show
+git commit --amend -m "Añadido el capitulo sobre gestión de ramas al índice."
+```
+Escriba git show de nuevo para la comprobación final.
 
 
 
