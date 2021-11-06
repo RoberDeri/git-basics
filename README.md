@@ -21,16 +21,18 @@ Vamos a crear un repositorio nuevo como ejemplo y lo llamaremos "dpl":
     </ul><br>
   </li>
   <li>Confirme con <strong>Ctrl + D</strong>.</li>
-  <li>compruebe estado de nuevo añada el fichero a la zona de intercambio temporal con <strong>git add indice.txt</strong>.</li>
+  <li>Compruebe estado de nuevo añada el fichero a la zona de intercambio temporal con <strong>git add indice.txt</strong>.</li>
   <li>Repita  <strong>git status</strong> para verificación final.</li>
 </ol>
 
 ## Realización de commits
 
 Esta es la parte en la que se inicia el seguimiento de los archivos en proceso. Para comenzar, escriba este comando para comenzar el rastreo y añadir un mensaje:<br>
+
 ```
 git commit -m "Añadido índice de la asignatura DPL."
 ```
+
 Compruebe con <strong>git status</strong> si se ha registrado este cambio.
 
 ## Modificación de ficheros
@@ -39,26 +41,31 @@ Modifique el fichero indice.txt con:
 ```
 cat > indice.txt
 ```
+
 Introduzca los siguientes apartados y una vez hecho confirme con Ctrl + D:
 <ul>
   <li>Capítulo 3: Gestión de ramas</li>
   <li>Capítulo 4: Repositorios remotos</li>
 </ul><br>
 Para mostrar los cambios con respecto a la última versión guardada en el repositorio introduzca:
+
 ```
 git diff
 ```
 Una vez verificado hacemos commit con el mensaje Añadido los capitulos 3 y 4:
+
 ```
 git add indice.txt
 git commit -m "Añadido los capitulos 3 y 4"
 ```
 ## Consultar historial
-El comando <strong>git show</strong> muestra los últimos cambios en el repositorio. El comando <strong>git commit --amend</strong> es una manera práctica de modificar el commit más reciente. Te permite combinar los cambios preparados con el commit anterior en lugar de crear un commit nuevo. 
+El comando <strong>git show</strong> muestra los últimos cambios en el repositorio. El comando <strong>git commit --amend</strong> es una manera práctica de modificar el commit más reciente. Te permite combinar los cambios preparados con el commit anterior en lugar de crear un commit nuevo.
+
 ```
 git show
 git commit --amend -m "Añadido el capitulo sobre gestión de ramas al índice."
 ```
+
 Escriba git show de nuevo para la comprobación final.
 
 
