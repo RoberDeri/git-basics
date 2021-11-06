@@ -5,7 +5,7 @@ Este repositorio es una guía de comandos de manipulación con la que poder empe
 Vamos a crear un repositorio nuevo como ejemplo y lo llamaremos "dpl": 
 
 <ol>
-  <li>Use el comamdo <strong>mkdir</strong> para crear directorio y <strong>cd dpl</strong> para entrar en él.</li>
+  <li>Use el comando <strong>mkdir</strong> para crear directorio y <strong>cd dpl</strong> para entrar en él.</li>
   <li>Inicie con <strong>git init</strong>.</li>
   <li>Se muestra su contenido organizado con <strong>ls -la</strong>.</li>
 </ol>
@@ -52,18 +52,18 @@ Para mostrar los cambios con respecto a la última versión guardada en el repos
 ```
 git diff
 ```
-Una vez verificado hacemos commit con el mensaje Añadido los capitulos 3 y 4:
+Una vez verificado hacemos commit con el mensaje Añadido los capítulos 3 y 4:
 
 ```
 git add indice.txt
-git commit -m "Añadido los capitulos 3 y 4"
+git commit -m "Añadido los capítulos 3 y 4"
 ```
 ## Consultar historial
 El comando <strong>git show</strong> muestra los últimos cambios en el repositorio. El comando <strong>git commit --amend</strong> es una manera práctica de modificar el commit más reciente. Te permite combinar los cambios preparados con el commit anterior en lugar de crear un commit nuevo.
 
 ```
 git show
-git commit --amend -m "Añadido el capitulo sobre gestión de ramas al índice."
+git commit --amend -m "Añadido el capítulo sobre gestión de ramas al índice."
 ```
 
 Escriba git show de nuevo para la comprobación final.
