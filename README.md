@@ -52,7 +52,7 @@ Para mostrar los cambios con respecto a la última versión guardada en el repos
 ```
 git diff
 ```
-Una vez verificado hacemos commit con el mensaje Añadido los capítulos 3 y 4:
+Una vez verificado hacemos commit con el mensaje "Añadido los capítulos 3 y 4":
 
 ```
 git add indice.txt
