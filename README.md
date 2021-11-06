@@ -21,7 +21,7 @@ Vamos a crear un repositorio nuevo como ejemplo y lo llamaremos "dpl":
     </ul><br>
   </li>
   <li>Confirme con <strong>Ctrl + D</strong>.</li>
-  <li>Compruebe estado de nuevo añada el fichero a la zona de intercambio temporal con <strong>git add indice.txt</strong>.</li>
+  <li>Compruebe estado de nuevo y añada el fichero a la zona de intercambio temporal con <strong>git add indice.txt</strong>.</li>
   <li>Repita  <strong>git status</strong> para verificación final.</li>
 </ol>
 
